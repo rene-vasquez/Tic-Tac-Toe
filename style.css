@@ -1,0 +1,27 @@
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startBtn {
+    margin: 20px;
+}
